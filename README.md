@@ -1,4 +1,4 @@
-An attempt to 'beat' the games found at the human benchmark website using python.
+An attempt to 'beat' the games found at the [human benchmark](https://humanbenchmark.com/) website using python.
 
 The Number Memory game is still a WIP.
 
