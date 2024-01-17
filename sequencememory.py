@@ -40,7 +40,7 @@ pyautogui.click(953, 522)
 positions = compute_positions(top_left,bottom_right)
 
 try:
-    while True and count < levels:
+    while count < levels:
         for i, pos in enumerate(positions):
             color = get_pixel_color(pos[0],pos[1])
             r, g, b = color[0], color[1], color[2]
