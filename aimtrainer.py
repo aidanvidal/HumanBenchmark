@@ -5,6 +5,8 @@ import pyautogui
 import webbrowser
 import time
 
+pyautogui.PAUSE = 0.00
+pyautogui.MINIMUM_DURATION = 0.00
 
 bounding_box = {'top': 142, 'left': 502, 'width': 1555-502, 'height': 638-142} #Change to be the bounding box of the game
 
@@ -55,7 +57,7 @@ def detect_white_regions(image):
 
 coords = []
 count = 0
-levels = 30
+levels = 60
 webbrowser.open('https://humanbenchmark.com/tests/aim', new=2)
 time.sleep(1)
 pyautogui.click(953, 391)
